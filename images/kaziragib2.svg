@@ -1,0 +1,13 @@
+<svg width="141" height="40" xmlns="http://www.w3.org/2000/svg">
+ <title>KaziRagib</title>
+ <defs>
+  <filter id="svg_4_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <text stroke-width="0" filter="url(#svg_4_blur)" transform="matrix(1.81372 0 0 2.24324 -515.783 -498.459)" stroke="#EDFFFF" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Playball'" font-size="30" id="svg_4" y="255.12048" x="100" fill="#DDDDDD">KaziRagib</text>
+  <text transform="matrix(0.957239 0 0 1.01096 -28.2176 13.995)" stroke="#EDFFFF" xml:space="preserve" text-anchor="start" font-family="'Playball'" font-size="30" id="svg_8" y="15.44036" x="40.88333" stroke-width="0" fill="#DDDDDD">KaziRagib</text>
+ </g>
+</svg>
