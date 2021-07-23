@@ -135,6 +135,14 @@ li a:hover::after{
     transform: scale(.95);
     transition: all .3s ease;
 }
+/* ----------- Project card --------- */
+#projects .card {
+    font-family: 'Abel', sans-serif;
+    font-size: .5 rem;
+    border: var(--kprimary2);
+    background-color:  var(--kprimary4);
+    max-height: 100%;
+}
 
 /* ---- INSIDE CARD DESIGN ----*/ 
 #experience .card {
