@@ -127,7 +127,6 @@ li a:hover::after{
     border: var(--kprimary2);
 }
 
-
 /* -------- Skill Section ---------*/ 
 
 .img-icon {
@@ -137,6 +136,7 @@ li a:hover::after{
     margin-right: auto;
     display: block;
 }
+
  /* -------- SKILL ICON  --------*/ 
 .skill-design {
     font-family: 'Abel', sans-serif;
@@ -145,6 +145,7 @@ li a:hover::after{
     transform: scale(.95);
     transition: all .3s ease;
 }
+
 /* ----------- Project card --------- */
 #projects .card {
     font-family: 'Abel', sans-serif;
@@ -165,4 +166,57 @@ li a:hover::after{
 #achievements .card {
     font-family: 'Abel', sans-serif;
     background-color:  var(--kprimary4);
+}
+
+/* ---------Footer --------- */
+footer{
+    margin-block:initial;
+    padding: 1.1%;
+    color: white;
+    background-color:  var(--kprimary4);
+}
+
+/* ----------Preloader Css------------ */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: var(--kprimary2);
+}
+  
+#preloader:before { 
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #911111;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+  
+@keyframes animate-preloader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
 }
