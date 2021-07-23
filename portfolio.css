@@ -154,9 +154,15 @@ li a:hover::after{
     max-height: 100%;
 }
 
-/* ---- INSIDE CARD DESIGN ----*/ 
+/* ---- Experinence Card ----*/ 
 #experience .card {
     font-family: 'Abel', sans-serif;
     background-color: var(--kprimary4);
     border: var(--kprimary2);
+}
+
+/* ------Achievement Card ----*/ 
+#achievements .card {
+    font-family: 'Abel', sans-serif;
+    background-color:  var(--kprimary4);
 }
