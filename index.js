@@ -70,3 +70,4 @@ function changeColor() {
     state++;
   }
 }
+
