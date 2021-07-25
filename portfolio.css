@@ -31,7 +31,8 @@ body {
 
 /* ------- Display picture hover ---- */
 
-#dp{ 
+#dp{
+    cursor: pointer;
     transition: all 1s;
 }
 
@@ -49,6 +50,12 @@ body {
 }
 #all_bttn:hover{
     transform: scale(1.1);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #651616;
+    border-color: #adb5bd;
 }
 
  /*--------- Top Section naming and Paragraph ----------  */
