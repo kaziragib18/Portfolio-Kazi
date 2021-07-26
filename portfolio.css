@@ -95,6 +95,14 @@ body {
 #all_bttn:hover{
     transform: scale(1.1);
 }
+.btn-primary {
+    color: var(--kprimary3);
+    background-color: var(--kprimary);
+    border-color: #423c3cd3;
+}
+#blog-btn{
+    margin-top: 3.5rem;
+}
 
 /*---- Top name section ----*/
 
@@ -170,7 +178,7 @@ h1.section-title{
     margin-bottom: 1rem !important ;
 }
 
-h1.skill_tab{
+h1.skill_tab, .blog-tab{
     margin-bottom: 2.5rem;
 
 }
@@ -183,13 +191,21 @@ h1.skill_tab{
     margin-top: 10%;
     padding-top: 8%;
 }
+.blog-tab{
+    margin-top: 3rem;
+    font-family: 'Comfortaa', cursive; 
+    color: var(--kprimary3);
+}
+.achieve-tab{
+    margin-top: 3rem;
+}
+
 /* ------------ Card design------------*/
 
 .card{
     background: var(--kprimary6);
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 7px 8px 3px 4px rgba(0, 0, 0, 0.2);
-    border-radius: 1.1rem;
     transition: all 1s;    
 }
 
@@ -208,15 +224,19 @@ h1.skill_tab{
     background-color: var(--kprimary4);
     font-size: 1rem;
     border: var(--kprimary2);
+    border-radius: 1.1rem;
 }
 
 #experience .card {
     font-family: 'Abel', sans-serif;
     background-color: var(--kprimary4);
     border: var(--kprimary2);
+    border-radius: 1.1rem;
 }
 
 #blog .card {
+    background: var(--kprimary6);
+    box-shadow: 7px 8px 3px 4px rgba(0, 0, 0, 0.2);
     font-family: 'Abel', sans-serif;
     font-size: .5 rem;
     border: var(--kprimary2);
@@ -227,6 +247,7 @@ h1.skill_tab{
 #achievements .card {
     font-family: 'Abel', sans-serif;
     background-color:  var(--kprimary4);
+    border-radius: 1.1rem;
 }
 
 #projects .card {
@@ -235,6 +256,7 @@ h1.skill_tab{
     border: var(--kprimary2);
     background-color:  var(--kprimary4);
     max-height: 100%;
+    border-radius: 1.1rem;
 }
 
 /* ---- SKILL DESIGN SECTION  ----*/ 
