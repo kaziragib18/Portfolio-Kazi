@@ -1,505 +1,511 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <!--  Fontawesome  -->
     <script src="https://kit.fontawesome.com/5dbf1108d2.js" crossorigin="anonymous"></script>
-
+    <!--    Bootstrap  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <!--Animate on scroll js  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
         integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
         crossorigin="anonymous" />
-
+    <!--    Google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap" rel="stylesheet">
-
+    <!--favicon  -->
     <link rel='shortcut icon' type='image/x-icon' href='/Images/Icons/KR-favicon_3.png' />
-
+    <!--    Css Stylesheet  -->
     <link rel="stylesheet" type="text/css" href="portfolio.css">
-
+    <!--    Js file  -->
     <script type="text/javascript" src="index.js"></script>
-
     <title>Kazi-Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <!------------ Navigation Bar --------------->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-            <div class="container">
-                <a href="index.html" class="navbar-brand"><img src="./Images/My_Signiture.png"></a>
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><img width="120" src="./Images/My_Signiture.PNG"></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ml-auto">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
 
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link">About Me</a>
-                        </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Me</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a href="#education" class="nav-link">Education</a>
-                        </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a href="#skills" class="nav-link">Skills</a>
-                        </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a href="#projects" class="nav-link">Projects</a>
-                        </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
 
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#achievements" class="nav-link">Achievements</a>
+                    </li>
+
+                    <!--
                         <li class="nav-item">
                             <a href="#blog" class="nav-link">Blog</a>
                         </li>
+                    -->
 
-                        <li class="nav-item">
-                            <a href="#experience" class="nav-link">Experience</a>
-                        </li>
 
-                        <li class="nav-item">
-                            <a href="#achievements" class="nav-link">Achievements</a>
-                        </li>
-                    </ul>
-                </div>
+                </ul>
             </div>
-        </nav>
-    </header>
-    <main>
-        <!---------- About Section -------------->
+        </div>
+    </nav>
 
-        <section id="about" class="pb-5 py-5 mt-5">
-            <div class="container">
-                <div class="row mt-5">
+    <!-- About Section -->
+    <section id="about" class="pb-5 py-5 mt-5">
+        <div class="container">
+            <div class="row mt-5 pt-2">
 
-                    <div class="col-md-6 align-self-center" data-aos="fade-right">
-                        <h1 class="name-top pt-1">Kazi Md. Ragib</h1>
-                        <h1 class="name-info"> I am a
-                            <span class="txt-rotate" data-period="1000"
-                                data-rotate='[ "Programmer.", "Developer.", "Designer." ]'></span>
-                        </h1>
-                        <p class="top-text py-4">A young adult with a zeal to develop software that benefits people and
-                            lives.
-                            Passionate about web development, design and human-computer interaction.
-                            Looking to broaden my horizon in the field of technology. <br><br>
-                            In my free time, you can catch me reading light novels, playing football,
-                            trying out new recipes with my mother and watching anime.
-                        </p>
-                        <p class="mt-4 mb-4">
-                            <a href="mailto:@kaziragib18@gmail.com" add target="_blank"><i
-                                    class="fas fa-envelope fa-3x mr-3 icon"></i></a>
-                            <a href="https://www.linkedin.com/in/kazi-md-ragib-580a5219b/" add target="_blank"><i
-                                    class="fab fa-linkedin fa-3x mr-3 icon"></i></a>
-                            <a href="https://github.com/kaziragib18/" add target="_blank"><i
-                                    class="fab fa-github fa-3x mr-3 icon"></i></a>
-                            <a href="https://kaziragib18.medium.com/" add target="_blank"><i
-                                    class="fab fa-medium fa-3x mr-3 icon"></i></a>
-                        </p>
-                        <a href="#" add target="_blank" id="all_bttn"
-                            class="btn btn-md btn-outline-success my-3">Download
-                            Resume</a>
+                <div class="col-md-6 align-self-center" data-aos="fade-right">
+                    <h1 class="name-top pt-1">Kazi Md. Ragib</h1>
+                    <h1 class="name-info"> I am a
+                        <span class="txt-rotate" data-period="1000"
+                            data-rotate='[ "Programmer.", "Developer.", "Designer." ]'></span>
+                    </h1>
+                    <p class="top-text py-4">A young adult with a zeal to develop software that benefits people and
+                        lives.
+                        Passionate about web development, design and human-computer interaction.
+                        Looking to broaden my horizon in the field of technology. <br><br>
+                        In my free time, you can catch me reading light novels, playing football,
+                        trying out new recipes with my mother and watching anime.
+                    </p>
+                    <p class="mt-4 mb-4">
+                        <a href="mailto:@kaziragib18@gmail.com" add target="_blank"><i
+                                class="fas fa-envelope fa-3x mr-3 icon"></i></a>
+                        <a href="https://www.linkedin.com/in/kazi-md-ragib-580a5219b/" add target="_blank"><i
+                                class="fab fa-linkedin fa-3x mr-3 icon"></i></a>
+                        <a href="https://github.com/kaziragib18/" add target="_blank"><i
+                                class="fab fa-github fa-3x mr-3 icon"></i></a>
+                        <a href="https://kaziragib18.medium.com/" add target="_blank"><i
+                                class="fab fa-medium fa-3x mr-3 icon"></i></a>
+                    </p>
+                    <a href="https://drive.google.com/file/d/1L496zwN_77pk5Mk2oz6vBrbkZTudaGpg/view?usp=sharing" add
+                        target="_blank" id="all_bttn" class="btn btn-md btn-outline-success my-3">Download Resume</a>
 
-                    </div>
-
-                    <div class="col-md-2"></div>
-
-                    <div id="dp" class="psimg col-md-4 rounded-circle" data-aos="fade-left">
-                        <img src="./Images/cv2.png" alt=" Profile Picture" onclick="changeColor()"
-                            class="img-fluid rounded-circle about-img d-flex pt-2 ">
-                    </div>
+                    <!--<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                        <div class="elfsight-app-dadc8392-2b8b-4994-85f9-babe79730d06 mt-4"></div>
+                        -->
                 </div>
+
+                <div class="col-md-2"></div>
+
+                <div id="dp" class="psimg col-md-4 rounded-circle" data-aos="fade-left">
+                    <img src="./Images/cv2.png" alt=" Profile Picture" onclick="changeColor()"
+                        class="img-fluid rounded-circle d-flex mt-2 pt-2 about-img">
+
+                    <!--before class->>  onclick="changeColor()" -->
+                    <!--  https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_img_circle&stacked=h -->
+                </div>
+
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-------- Education Section ------------>
-
-        <section id="education" class="pb-5 mt-5 py-5">
-            <div class="container" data-aos="fade-right">
-                <h1 class="abc">Education</h1>
-                <div class="row mt-2 my-3 pt-4 py-3">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3>North South University, Dhaka</h3>
-                                <h5>Bachelor of Science in Computer Science and Engineering</h5>
-                                <p>2016 - 2020</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row pt-3">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3>Ispahani Public School & College, Chittagong</h3>
-                                <h5> Higher Secondary Certificate (HSC)</h5>
-                                <p>2015</p>
-                                <h5>Secondary School Certificate (SSC) </h5>
-                                <p>2013</p>
-                            </div>
+    <!-- Education Section -->
+    <section id="education" class="pb-5 mt-2 py-5">
+        <div class="container" data-aos="fade-right">
+            <h1 class="section-title">Education</h1>
+            <div class="row mt-2 my-3 pt-4 py-3">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>North South University, Dhaka</h3>
+                            <h5>Bachelor of Science in Computer Science and Engineering</h5>
+                            <p>2016 - 2020</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!----------- Skills Section ---------------->
-        <section id="skills" class="py-5">
-            <div class="container" data-aos="flip-up">
-                <h1 class="skill_tab">Skills</h1>
-
-                <div class="row text-center justify-content-between mb-3">
-                    <div class="col-6 col-md-2 skill-design">
-                        <img src="./Images/Icons/html-5.svg" alt="" class="img-fluid img-icon text-center my-3">
-                        <h5>HTML</h5>
-                    </div>
-
-                    <div class="col-6 col-md-2 skill-design">
-                        <img src="./Images/Icons/css3.svg" alt="" class="img-fluid img-icon text-center my-3">
-                        <h5>Css</h5>
-                    </div>
-
-                    <div class="col-6 col-md-2 skill-design">
-                        <img src="./Images/Icons/Node.js.svg" alt="" class="img-fluid img-icon text-center my-3">
-                        <h5>Node js</h5>
-                    </div>
-
-                    <div class="col-6 col-md-2 skill-design">
-                        <img src="./Images/Icons/logo-javascript.svg" alt=""
-                            class="img-fluid img-icon text-center my-3">
-                        <h5>JavaScript</h5>
-                    </div>
-
-                    <div class="col-12 col-md-2 skill-design">
-                        <img src="./Images/Icons/bootstrap-4.svg" alt="" class="img-fluid img-icon text-center my-3">
-                        <h5>Bootstrap</h5>
-                    </div>
-
-
-                </div>
-
-                <div class="row text-center justify-content-between">
-
-                    <div class="col-12 col-md-2 skill-design">
-                        <img src="./Images/Icons/react.svg" alt="" class="img-fluid img-icon text-center my-3">
-                        <h5>React</h5>
-                    </div>
-
-                    <div class="col-6 col-md-2 skill-design">
-                        <img src="./Images/Icons/figma-1.svg" alt="" class="img-fluid img-icon text-center my-3">
-                        <h5>Figma</h5>
-                    </div>
-
-
-                    <div class="col-6 col-md-2 skill-design">
-                        <img src="./Images/Icons/mongodb.svg" alt="" class="img-fluid img-icon text-center my-3">
-                        <h5>MongoDB</h5>
-                    </div>
-
-                    <div class="col-6 col-md-2 skill-design">
-                        <img src="./Images/Icons/Git.svg" alt="" class="img-fluid img-icon text-center my-3">
-                        <h5>Git</h5>
-                    </div>
-
-                    <div class="col-6 col-md-2 skill-design">
-                        <img src="./Images/Icons/VsCode.svg" alt="" class="img-fluid img-icon text-center my-3">
-                        <h5>VsCode</h5>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Projects Section -->
-        <section id="projects">
-            <div class="container" data-aos="zoom-in-up">
-                <h1 class="pro-header">Projects</h1>
-                <div class="row  py-4">
-                    <div class="col-lg-4 mb-3">
-                        <div class="card">
-                            <img class="card-img-top" src="./Images/Projects/key.JPG" alt="">
-                            <div class="card-body">
-                                <h4 class="card-title">project name</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-                                    consectetur vero suscipit dicta accusantium? Labore magnam ab asperiores explicabo
-                                    reprehenderit.
-                                </p>
-                                <a href="#" add target="_blank" id="all_bttn"
-                                    class="btn btn-sm btn-outline-success">Learn
-                                    More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mb-3">
-                        <div class="card">
-                            <img class="card-img-top" src="./Images/Projects/cs.jpg" alt="">
-                            <div class="card-body">
-                                <h4 class="card-title">project name</h4>
-                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
-                                    architecto, iure quaerat itaque doloribus labore adipisci neque debitis similique
-                                    veritatis.
-                                </p>
-                                <a href="#" add target="_blank" id="all_bttn"
-                                    class="btn btn-sm btn-outline-success">Learn
-                                    More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-3">
-                        <div class="card">
-                            <img class="card-img-top" src="./Images/Projects/cs.jpg" alt="">
-                            <div class="card-body">
-                                <h4 class="card-title">project name</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-                                    aperiam ipsum dolor ipsam sit illum temporibus ab saepe accusamus impedit.
-                                </p>
-                                <a href="#" add target="_blank" id="all_bttn"
-                                    class="btn btn-sm btn-outline-success">Learn
-                                    More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-3">
-                        <div class="card">
-                            <img class="card-img-top" src="./Images/Projects/cs.jpg" alt="">
-                            <div class="card-body">
-                                <h4 class="card-title">project name</h4>
-                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
-                                    doloribus aspernatur necessitatibus vitae, ipsum harum voluptates nihil in quia
-                                    suscipit.
-                                </p>
-                                <a href="#" add target="_blank" id="all_bttn"
-                                    class="btn btn-sm btn-outline-success">Learn
-                                    More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mb-3">
-                        <div class="card">
-                            <img class="card-img-top" src="./Images/Projects/cs.jpg" alt="">
-                            <div class="card-body">
-                                <h4 class="card-title">project name</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro
-                                    recusandae nobis saepe hic placeat ad sint eum dolorem voluptatum. Lorem ipsum dolor
-                                    sit amet.
-                                </p>
-                                <a href="#" add target="_blank" id="all_bttn"
-                                    class="btn btn-sm btn-outline-success">Learn
-                                    More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mb-3">
-                        <div class="card">
-                            <img class="card-img-top" src="./Images/Projects/sh.jpg" alt="">
-                            <div class="card-body">
-                                <h4 class="card-title">project name</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae hic
-                                    nesciunt vel debitis iure alias officia, necessitatibus architecto amet maxime.
-                                </p>
-                                <a href="#" add target="_blank" id="all_bttn"
-                                    class="btn btn-sm btn-outline-success">Learn
-                                    More</a>
-
-                            </div>
+            <div class="row pt-3">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Ispahani Public School & College, Chittagong</h3>
+                            <h5> Higher Secondary Certificate (HSC)</h5>
+                            <p>2015</p>
+                            <h5>Secondary School Certificate (SSC) </h5>
+                            <p>2013</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- card corousel START -->
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container" data-aos="flip-up">
+            <h1 class="skill_tab">Skills</h1>
+
+            <div class="row text-center justify-content-between mb-3">
+                <div class="col-6 col-md-2 skill-design">
+                    <img src="./Images/Icons/html-5.svg" alt="" class="img-fluid img-icon text-center my-3">
+                    <h5>HTML</h5>
+                </div>
+
+                <div class="col-6 col-md-2 skill-design">
+                    <img src="./Images/Icons/css3.svg" alt="" class="img-fluid img-icon text-center my-3">
+                    <h5>Css</h5>
+                </div>
+
+                <div class="col-6 col-md-2 skill-design">
+                    <img src="./Images/Icons/Node.js.svg" alt="" class="img-fluid img-icon text-center my-3">
+                    <h5>Node js</h5>
+                </div>
+
+                <div class="col-6 col-md-2 skill-design">
+                    <img src="./Images/Icons/logo-javascript.svg" alt="" class="img-fluid img-icon text-center my-3">
+                    <h5>JavaScript</h5>
+                </div>
+
+                <div class="col-12 col-md-2 skill-design">
+                    <img src="./Images/Icons/bootstrap-4.svg" alt="" class="img-fluid img-icon text-center my-3">
+                    <h5>Bootstrap</h5>
+                </div>
 
 
+            </div>
 
-        <!-- Blog Card corousel END -->
+            <div class="row text-center justify-content-between">
 
-        <section id="blog" class="pt-5 pb-5">
-            <div class="container" data-aos="zoom-in-up">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-6">
-                            <h1 class="mb-4">Blog</h1>
+                <div class="col-12 col-md-2 skill-design">
+                    <img src="./Images/Icons/react.svg" alt="" class="img-fluid img-icon text-center my-3">
+                    <h5>React</h5>
+                </div>
+
+                <div class="col-6 col-md-2 skill-design">
+                    <img src="./Images/Icons/figma-1.svg" alt="" class="img-fluid img-icon text-center my-3">
+                    <h5>Figma</h5>
+                </div>
+
+
+                <div class="col-6 col-md-2 skill-design">
+                    <img src="./Images/Icons/mongodb.svg" alt="" class="img-fluid img-icon text-center my-3">
+                    <h5>MongoDB</h5>
+                </div>
+
+                <div class="col-6 col-md-2 skill-design">
+                    <img src="./Images/Icons/Git.svg" alt="" class="img-fluid img-icon text-center my-3">
+                    <h5>Git</h5>
+                </div>
+
+                <div class="col-6 col-md-2 skill-design">
+                    <img src="./Images/Icons/VsCode.svg" alt="" class="img-fluid img-icon text-center my-3">
+                    <h5>VsCode</h5>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container" data-aos="zoom-in-up">
+            <h1 class="project-tab">Projects</h1>
+            <div class="row  py-4">
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./Images/Projects/key.JPG" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Key-Ano: The Game</h4>
+                            <p class="card-text">Keyano helps users to play music instruments sound
+                                from their keyboard. This can help those people who do not have access to all these
+                                instruments but want to get a feel of things.
+                            </p>
+                            <a href="#" add target="_blank" id="all_bttn" class="btn btn-sm btn-outline-success">Learn
+                                More</a>
                         </div>
-                        <div class="col-6 text-right">
-                            <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button"
-                                data-slide="prev">
-                                <i class="fa fa-arrow-left"></i>
-                            </a>
-                            <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button"
-                                data-slide="next">
-                                <i class="fa fa-arrow-right"></i>
-                            </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./Images/Projects/cs.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Color Switch Game</h4>
+                            <p class="card-text">Re-created the classic Color Switch game using Java SDK 15.0.1 and
+                                JavaFX 15.0.1
+                                along with Scene Builder as a final project for a college course CSE201 at IIIT-Delhi.
+                            </p>
+                            <a href="#" add target="_blank" id="all_bttn" class="btn btn-sm btn-outline-success">Learn
+                                More</a>
                         </div>
-                        <div class="col-12">
-                            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./Images/Projects/cs.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Color Switch Game</h4>
+                            <p class="card-text">Re-created the classic Color Switch game using Java SDK 15.0.1 and
+                                JavaFX 15.0.1
+                                along with Scene Builder as a final project for a college course CSE201 at IIIT-Delhi.
+                            </p>
+                            <a href="#" add target="_blank" id="all_bttn" class="btn btn-sm btn-outline-success">Learn
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./Images/Projects/cs.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Color Switch Game</h4>
+                            <p class="card-text">Re-created the classic Color Switch game using Java SDK 15.0.1 and
+                                JavaFX 15.0.1
+                                along with Scene Builder as a final project for a college course CSE201 at IIIT-Delhi.
+                            </p>
+                            <a href="#" add target="_blank" id="all_bttn" class="btn btn-sm btn-outline-success">Learn
+                                More</a>
+                        </div>
+                    </div>
+                </div>
 
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="row">
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./Images/Projects/cs.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Color Switch Game</h4>
+                            <p class="card-text">Re-created the classic Color Switch game using Java SDK 15.0.1 and
+                                JavaFX 15.0.1
+                                along with Scene Builder as a final project for a college course CSE201 at IIIT-Delhi.
+                            </p>
+                            <a href="#" add target="_blank" id="all_bttn" class="btn btn-sm btn-outline-success">Learn
+                                More</a>
+                        </div>
+                    </div>
+                </div>
 
-                                            <div class="col-md-4 mb-3">
-                                                <div class="card">
-                                                    <img class="img-fluid" alt="100%x280"
-                                                        src="Images/Projects/key.JPG">
-                                                    <div class="card-body">
-                                                        <h4 class="card-title">Special title treatment</h4>
-                                                        <p class="card-text">With supporting text below as a natural
-                                                            lead-in to additional content.</p>
-                                                        <a href="#" add target="_blank" id="all_bttn"
-                                                            class="btn btn-sm btn-outline-success">Learn
-                                                            More</a>
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./Images/Projects/sh.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Super Hexagon</h4>
+                            <p class="card-text">
+                                I created this game that I made on Unity where I create a replica of the Super Hexagon
+                                game using Unity, I made while creating (lol).
+                            </p>
+                            <a href="#" add target="_blank" id="all_bttn" class="btn btn-sm btn-outline-success">Learn
+                                More</a>
 
-                                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <div class="card">
-                                                    <img class="img-fluid" alt="100%x280"
-                                                        src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                                                    <div class="card-body">
-                                                        <h4 class="card-title">Special title treatment</h4>
-                                                        <p class="card-text">With supporting text below as a natural
-                                                            lead-in to additional content.</p>
-                                                        <a href="#" add target="_blank" id="all_bttn"
-                                                            class="btn btn-sm btn-outline-success">Learn
-                                                            More</a>
+    <!-- Experience Section -->
+    <section id="experience" class="py-5">
+        <div class="container" data-aos="fade-left">
+            <h1 class="section-title">Experience</h1>
 
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <div class="card">
-                                                    <img class="img-fluid" alt="100%x280"
-                                                        src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">
-                                                    <div class="card-body">
-                                                        <h4 class="card-title">Special title treatment</h4>
-                                                        <p class="card-text">With supporting text below as a natural
-                                                            lead-in to additional content.</p>
-                                                        <a href="#" add target="_blank" id="all_bttn"
-                                                            class="btn btn-sm btn-outline-success">Learn
-                                                            More</a>
+            <div class="row py-3">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Secretary, Computer Society</h3>
+                            <h5>IEEE IIIT Delhi </h5>
+                            <p>Feb 2020 - May 2021</p>
 
-                                                    </div>
-                                                </div>
-                                            </div>
+                            <ul>
+                                <li>Lead a core team of 10+ members and managed 200+ students PAN India for our TechFest
+                                    Campus Ambassador (CA) Program</li>
+                                <li>Closed sponsorship deals with 20+ companies for cash INR 20,000 and in-kind ~ USD
+                                    25,000</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-3">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Creatives Team Lead</h3>
+                            <h5>BioBytes IIIT Delhi</h5>
+                            <p>Jul 2020 – Dec 2020</p>
+
+                            <ul>
+                                <li>Manage 10+ members of the Creatives Team which includes Graphic Designers, Content
+                                    Writers, and Video Editors.</li>
+                                <li>Design posters, banners, and graphics for the club.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-3">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Graphic Designer</h3>
+                            <h5>jcript </h5>
+                            <p>Jun 2019 - Oct 2020</p>
+
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eligendi!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+       <section id="blog" class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h1 class="section-title">Blog</h>
+            </div>
+            <div class="col-6 text-right">
+                <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                    <i class="fa fa-arrow-left"></i>
+                </a>
+                <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-12">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <div class="row">
-
-                                            <div class="col-md-4 mb-3">
-                                                <div class="card">
-                                                    <img class="img-fluid" alt="100%x280"
-                                                        src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
-                                                    <div class="card-body">
-                                                        <h4 class="card-title">Special title treatment</h4>
-                                                        <p class="card-text">With supporting text below as a natural
-                                                            lead-in to additional content.</p>
-                                                        <a href="#" add target="_blank" id="all_bttn"
-                                                            class="btn btn-sm btn-outline-success">Learn
-                                                            More</a>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <div class="card">
-                                                    <img class="img-fluid" alt="100%x280"
-                                                        src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
-                                                    <div class="card-body">
-                                                        <h4 class="card-title">Special title treatment</h4>
-                                                        <p class="card-text">With supporting text below as a natural
-                                                            lead-in to additional content.</p>
-                                                        <a href="#" add target="_blank" id="all_bttn"
-                                                            class="btn btn-sm btn-outline-success">Learn
-                                                            More</a>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <div class="card">
-                                                    <img class="img-fluid" alt="100%x280"
-                                                        src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
-                                                    <div class="card-body">
-                                                        <h4 class="card-title">Special title treatment</h4>
-                                                        <p class="card-text">With supporting text below as a natural
-                                                            lead-in to additional content.</p>
-                                                        <a href="#" add target="_blank" id="all_bttn"
-                                                            class="btn btn-sm btn-outline-success">Learn
-                                                            More</a>
-
-                                                    </div>
-                                                </div>
-                                            </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <div class="row">
+                                </div>
 
-                                            <div class="col-md-4 mb-3">
-                                                <div class="card">
-                                                    <img class="img-fluid" alt="100%x280"
-                                                        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
-                                                    <div class="card-body">
-                                                        <h4 class="card-title">Special title treatment</h4>
-                                                        <p class="card-text">With supporting text below as a natural
-                                                            lead-in to additional content.</p>
-                                                        <a href="#" add target="_blank" id="all_bttn"
-                                                            class="btn btn-sm btn-outline-success">Learn
-                                                            More</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
 
-                                                    </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <div class="card">
-                                                    <img class="img-fluid" alt="100%x280"
-                                                        src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
-                                                    <div class="card-body">
-                                                        <h4 class="card-title">Special title treatment</h4>
-                                                        <p class="card-text">With supporting text below as a natural
-                                                            lead-in to additional content.</p>
-                                                        <a href="#" add target="_blank" id="all_bttn"
-                                                            class="btn btn-sm btn-outline-success">Learn
-                                                            More</a>
+                                        </div>
 
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <div class="card">
-                                                    <img class="img-fluid" alt="100%x280"
-                                                        src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
-                                                    <div class="card-body">
-                                                        <h4 class="card-title">Special title treatment</h4>
-                                                        <p class="card-text">With supporting text below as a natural
-                                                            lead-in to additional content.</p>
-                                                        <a href="#" add target="_blank" id="all_bttn"
-                                                            class="btn btn-sm btn-outline-success">Learn
-                                                            More</a>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Special title treatment</h4>
+                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -508,208 +514,120 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
-        <!-- Experience Section -->
-        <section id="experience" class="py-5">
-            <div class="container" data-aos="fade-left">
-                <h1 class="abc">Experience</h1>
+        -->
 
-                <div class="row py-3">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3>position</h3>
-                                <h5>job</h5>
-                                <p>date 2020 - May 2021</p>
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-5">
+        <div class="container" data-aos="fade-right">
+            <h1 class="section-title">Achievements</h1>
 
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-                                        consectetur
-                                        molestias et quaerat ipsum esse?</li>
-                                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore,
-                                        consectetur
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row py-3">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Publication</h3>
+                            <h4>PakhiChini: Automatic Bird Species Identification Using Deep Learning</h4>
+                            <p>Sep 29, 2020 </p>
+                            <ul>
+                                <li>2020 Fourth World Conference on Smart Trends in Systems, Security and Sustainability
+                                    (WorldS4)
+                                </li>
+                            </ul>
 
-                <div class="row py-3">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3>job</h3>
-                                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum,
-                                    consectetur.
-                                </h5>
-                                <p>date 2020 – 2021</p>
+                            <p>The sector of entire image classification has recently found outstanding accomplishment
+                                in Convolutaional Neural Network. Lately, leveraging pretrained Convolutional Neural
+                                Networks (CNN) offer a much better illustration of an input image. ResNet [1] is one the
+                                top pretrained CNN networks that is mostly used in deep learning as pretrained CNN
+                                model. In this paper, we propose a deep learning model that is capable of identifying
+                                individual birds from an input image. We tend to additionally leverage pretrained ResNet
+                                model as pretrained CNN networks with base model to encode the images. Usually, birds
+                                are found in diverse scenarios which are seen in different sizes, shapes, sizes, colors
+                                from human point of view. Conducted experiments will be using the entity of different
+                                dimensions, cast and celerity to study recognition performance. We achieved a top-5
+                                accuracy of 97.98% on our classifications.</p>
+                            <a href="https://ieeexplore.ieee.org/document/9210259" add target="_blank" id="all_bttn"
+                                class="btn btn-sm btn-outline-success"> Read Publication
+                            </a>
+                            <ul>
 
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, alias.
-                                        Writers, and Video Editors.</li>
-                                    <li>Lorem ipsum dolor sit amet consectetur.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row py-3">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3>position</h3>
-                                <h5>job </h5>
-                                <p>Jun 2019 - Oct 2020</p>
-
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eligendi!
-                                    </li>
-                                </ul>
-                            </div>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <!-- Achievements Section -->
-        <section id="achievements" class="py-5">
-            <div class="container" data-aos="fade-right">
-                <h1 class="abc">Achievements</h1>
+            <div class="row py-3">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3> Achievement two </h3>
+                            <p> 2021</p>
 
-                <div class="row py-3">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3>Publication</h3>
-                                <h4>PakhiChini: Automatic Bird Species Identification Using Deep Learning</h4>
-                                <p>Sep 29, 2020 </p>
-                                <ul>
-                                    <li>2020 Fourth World Conference on Smart Trends in Systems, Security and
-                                        Sustainability
-                                        (WorldS4)
-                                    </li>
-                                </ul>
-
-                                <p>The sector of entire image classification has recently found outstanding
-                                    accomplishment
-                                    in Convolutaional Neural Network. Lately, leveraging pretrained
-                                    Convolutional
-                                    Neural
-                                    Networks (CNN) offer a much better illustration of an input image. ResNet
-                                    [1] is
-                                    one
-                                    the
-                                    top pretrained CNN networks that is mostly used in deep learning as
-                                    pretrained
-                                    CNN
-                                    model. In this paper, we propose a deep learning model that is capable of
-                                    identifying
-                                    individual birds from an input image. We tend to additionally leverage
-                                    pretrained
-                                    ResNet
-                                    model as pretrained CNN networks with base model to encode the images.
-                                    Usually,
-                                    birds
-                                    are found in diverse scenarios which are seen in different sizes, shapes,
-                                    sizes,
-                                    colors
-                                    from human point of view. Conducted experiments will be using the entity of
-                                    different
-                                    dimensions, cast and celerity to study recognition performance. We achieved
-                                    a
-                                    top-5
-                                    accuracy of 97.98% on our classifications.</p>
-                                <a href="https://ieeexplore.ieee.org/document/9210259" add target="_blank" id="all_bttn"
-                                    class="btn btn-sm btn-outline-success"> Read Publication
-                                </a>
-                                <ul>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row py-3">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3> Achievement two </h3>
-                                <p> 2021</p>
-
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima magnam
-                                        consequatur
-                                        quo, omnis accusantium ad</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row py-3">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3> Achievement Three </h3>
-                                <p>2021</p>
-
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima magnam
-                                        consequatur
-                                        quo, omnis accusantium ad</li>
-                                </ul>
-                            </div>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima magnam consequatur
+                                    quo, omnis accusantium ad</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <!-- FOOTER -->
-        <footer class="text-center developers">
 
-            <!-- This site is developed by -->
-            <a href="https://github.com/kaziragib18/" class="footer" add target="_blank">
-                <span class="footer-sign"><img src="./Images/My_Signiture.PNG"></span></a>
-            &copy; 2021
 
-        </footer>
-        </footer>
+            <div class="row py-3">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3> Achievement Three </h3>
+                            <p>2021</p>
 
-        <div id="preloader"></div>
-        <script src="jquery.min.js"></script>
-        <script src="main.js"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-            integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-            crossorigin="anonymous"></script>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima magnam consequatur
+                                    quo, omnis accusantium ad</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <script src="https://kit.fontawesome.com/5dbf1108d2.js" crossorigin="anonymous"></script>
+    <!-- FOOTER -->
+    <footer class="text-center developers">
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
-        <script>
-            AOS.init({
-                delay: 220,
-                duration: 1200,
-                once: false
-            })
-        </script>
-    </main>
+        <!-- This site is developed by -->
+        <a href="https://github.com/kaziragib18/" class="footer" add target="_blank">
+            <span class="footer-sign"><img src="./Images/My_Signiture.PNG"></span></a>
+        &copy; 2021
+
+    </footer>
+<!-- preloader section -->
+    <div id="preloader"></div>
+    <script src="jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous"></script>
+    <script>
+        AOS.init({
+            delay: 200,
+            duration: 1200,
+            once: false
+        })
+    </script>
 </body>
 
 </html>
